@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    font-weight: 700;
+    font-family: sans-serif;
+    
+}
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(241,102,215,1) 0%, rgba(82,125,208,1) 24%, rgba(207,107,85,1) 46%, rgba(161,187,50,1) 64%, rgba(123,138,55,1) 72%);
+}
+
+@media screen and (max-width:308px) {
+    body{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:255px) {
+    body{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width:221px) {
+    body{
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width:191px) {
+    body{
+        font-size: 0.55rem;
+    }
+}
